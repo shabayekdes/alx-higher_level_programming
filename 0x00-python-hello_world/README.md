@@ -12,3 +12,5 @@
 - Task 9. Easter Egg
 - Task 10. Linked list cycle
 - Task 11. Hello, write
+- Task 12. Compile
+
