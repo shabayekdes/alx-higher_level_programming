@@ -7,7 +7,7 @@ last = abs(number) % 10
 if number < 0:
     last = -last
 
-str = f"Last digit of {number} is {last}"
+str = f"Last digit of {number:d} is {last:d}"
 
 if last > 5:
     str += " greater than 5"
