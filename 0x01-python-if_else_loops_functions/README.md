@@ -6,3 +6,4 @@
 - Task 3. When I was having that alphabet soup, I never thought that it would pay off
 - Task 4. Hexadecimal printing
 - Task 5. 00...99
+- Task 6. Inventing is a combination of brains and materials. The more brains you use, the less material you need
