@@ -13,4 +13,5 @@
 - Task 10. a + b
 - Task 11. a ^ b
 - Task 12. Fizz Buzz
+- Task 13. Insert in sorted linked list
 
