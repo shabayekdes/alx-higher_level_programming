@@ -15,3 +15,4 @@
 - Task 12. Fizz Buzz
 - Task 13. Insert in sorted linked list
 - Task 14. Smile in the mirror
+- Task 15. Remove at position
