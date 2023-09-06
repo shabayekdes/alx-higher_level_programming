@@ -10,3 +10,4 @@
 - Task 7. islower
 - Task 8. To uppercase
 - Task 9. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important
+- Task 10. a + b
