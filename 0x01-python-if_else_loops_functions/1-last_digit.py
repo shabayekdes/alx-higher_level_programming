@@ -10,7 +10,7 @@ if number < 0:
 str = f"Last digit of {number:d} is {last:d}"
 
 if last > 5:
-    str += " greater than 5"
+    str += " and is greater than 5"
 elif last == 0:
     str += " and is 0"
 else:
