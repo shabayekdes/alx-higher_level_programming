@@ -9,3 +9,4 @@
 - Task 6. Inventing is a combination of brains and materials. The more brains you use, the less material you need
 - Task 7. islower
 - Task 8. To uppercase
+- Task 9. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important
