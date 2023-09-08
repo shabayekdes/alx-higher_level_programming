@@ -6,3 +6,4 @@
 - Task 3. Infinite addition
 - Task 4. Who are you?
 - Task 5. Everything can be imported
+- Task 6. Build my own calculator!
