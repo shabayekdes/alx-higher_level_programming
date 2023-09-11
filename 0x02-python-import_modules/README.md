@@ -8,4 +8,4 @@
 - Task 5. Everything can be imported
 - Task 6. Build my own calculator!
 - Task 7. Easy print
-
+- Task 9. Fast alphabet
