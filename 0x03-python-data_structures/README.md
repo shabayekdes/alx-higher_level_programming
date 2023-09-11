@@ -10,3 +10,4 @@
 7. Tuples addition
 8. More returns!
 9. Find the max
+10. Only by 2
