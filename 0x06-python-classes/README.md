@@ -8,3 +8,4 @@
 5. Printing a square
 6. Coordinates of a square
 7. Singly linked list
+9. Compare 2 squares
