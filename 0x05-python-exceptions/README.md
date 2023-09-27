@@ -8,3 +8,4 @@
 5. Raise exception
 6. Raise a message
 7. Safe integer print with error message
+8. Safe function
