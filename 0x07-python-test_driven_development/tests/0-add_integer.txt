@@ -1,0 +1,41 @@
+The 0-add_integer test module.
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+Using "add_integer"
+++++++++++++++++++++++++++++++++++++
+
+Import function from module:
+
+	>>> add_integer = __import__('0-add_integer').add_integer
+
+Test one int argument:
+	>>> add_integer(2)
+	100
+
+Test one int argument and check default second:
+	>>> add_integer(0)
+	98
+
+Test one float:
+	>>> add_integer(166.7)
+	264
+
+Test one negative float:
+	>>> add_integer(-97.978)
+	1
+
+Test 2 integers:
+	>>> add_integer(55, 500)
+	555
+
+Test 2 long ints:
+	>>> add_integer(11111111, 22222222)
+	33333333
+
+Test positive + negative ints
+	>>> add_integer(167, -7)
+	160
+
+Test negative, positive ints:
+	>>> add_integer(-100, 200)
+	100
