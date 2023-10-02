@@ -7,3 +7,4 @@
 4. Eval is magic
 5. Detect instance deletion
 6. How many instances
+7. Change representation
