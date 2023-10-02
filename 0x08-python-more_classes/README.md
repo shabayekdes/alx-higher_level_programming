@@ -5,3 +5,4 @@
 2. Area and Perimeter
 3. String representation
 4. Eval is magic
+5. Detect instance deletion
