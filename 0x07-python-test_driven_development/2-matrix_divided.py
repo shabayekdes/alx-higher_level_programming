@@ -29,3 +29,8 @@ def matrix_divided(matrix, div):
             temp_list.append((round((number / div), 2)))
         my_list.append(temp_list)
     return my_list
+
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testfile("tests/2-matrix_divided.txt")
