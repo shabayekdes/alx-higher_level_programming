@@ -10,3 +10,4 @@
 7. Is the same
 8. Is really equal
 9. Is really the same
+10. And with a list, is it equal
