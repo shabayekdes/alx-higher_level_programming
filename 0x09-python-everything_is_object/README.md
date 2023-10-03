@@ -20,3 +20,4 @@
 17. List incrementation
 18. List assignation
 19. Copy a list object
+20. Tuple or not?
