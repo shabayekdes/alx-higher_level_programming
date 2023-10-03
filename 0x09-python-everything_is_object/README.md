@@ -6,3 +6,4 @@
 3. Right count =
 4. Right count =
 5. Right count =+
+6. Is equal
