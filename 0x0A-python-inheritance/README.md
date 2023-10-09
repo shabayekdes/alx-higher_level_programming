@@ -10,3 +10,4 @@
 7. Integer validator
 8. Rectangle
 9. Full rectangle
+10. Square #1
