@@ -17,7 +17,22 @@ class Rectangle(Base):
     def area(self):
         """calculate the area of the rectangle"""
         return (self.__width * self.__height)
+    
+    def display(self):
+        """Method print instance"""
+        ex, ye = self.x, self.y
+        an, al = self.width, self.height
+        print("\n" * ye + "\n".join(" " * ex + "#" * an for i in range(al)))
 
+    def __str__(self):
+        """print statement"""
+        value = "[Rectangle] ({}) {}/{} - {}/{}".format(self.id,
+                                                        self.__x,
+                                                        self.__y,
+                                                        self.__width,
+                                                        self.__height)
+        return (value)
+    
     @property
     def width(self):
         """get the width"""
