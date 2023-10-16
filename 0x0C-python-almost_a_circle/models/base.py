@@ -15,6 +15,15 @@ class Base:
             self.id = Base.__nb_objects
 
     @staticmethod
+    def from_json_string(json_string):
+        """
+            Returns a dict from a string
+        """
+        if json_string is None or len(json_string) == 0:
+            return []
+        return json.loads(json_string)
+
+    @staticmethod
     def to_json_string(list_dictionaries):
         """list of dictionary to json string"""
         if list_dictionaries is None or list_dictionaries == []:
