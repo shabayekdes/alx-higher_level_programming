@@ -22,6 +22,17 @@ class Base:
         if json_string is None or len(json_string) == 0:
             return []
         return json.loads(json_string)
+    
+    @classmethod
+    def load_from_file(cls):
+        """load from file"""
+        filename = str(cls.__name__) + ".json"
+        try:
+            with open(filename, "r") as myfile:
+                list_dicts = Base.from_json_string(myfile.read())
+                return [cls.create(**d) for d in list_dicts]
+        except IOError:
+            return []
 
     @staticmethod
     def to_json_string(list_dictionaries):
