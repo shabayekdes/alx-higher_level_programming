@@ -19,10 +19,31 @@ class Rectangle(Base):
         return (self.__width * self.__height)
 
     def display(self):
-        """Method print instance"""
-        ex, ye = self.x, self.y
-        an, al = self.width, self.height
-        print("\n" * ye + "\n".join(" " * ex + "#" * an for i in range(al)))
+        '''
+            Prints to stdout the representation of the rectangle
+        '''
+        rectangle = ""
+        print("\n" * self.y, end="")
+        for i in range(self.height):
+            rectangle += (" " * self.x) + ("#" * self.width) + "\n"
+        print(rectangle, end="")
+
+    def update(self, *args, **kwargs):
+        '''
+            Updates the arguments in the class
+        '''
+        if len(args) == 0:
+            for key, val in kwargs.items():
+                self.__setattr__(key, val)
+            return
+        try:
+            self.id = args[0]
+            self.width = args[1]
+            self.height = args[2]
+            self.x = args[3]
+            self.y = args[4]
+        except IndexError:
+            pass
 
     def __str__(self):
         """print statement"""
