@@ -17,7 +17,7 @@ class Rectangle(Base):
     def area(self):
         """calculate the area of the rectangle"""
         return (self.__width * self.__height)
-    
+
     def display(self):
         """Method print instance"""
         ex, ye = self.x, self.y
@@ -32,7 +32,7 @@ class Rectangle(Base):
                                                         self.__width,
                                                         self.__height)
         return (value)
-    
+
     @property
     def width(self):
         """get the width"""
